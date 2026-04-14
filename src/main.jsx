@@ -12,7 +12,7 @@ try {
       <App />
     </React.StrictMode>
   )
-  if (debug) debug.innerHTML += '<br>✅ React mounted'
+  if (debug) debug.innerHTML += '<br> YES React mounted'
 } catch(e) {
   if (debug) debug.innerHTML += '<br>❌ React error: ' + e.message
   console.error(e)
